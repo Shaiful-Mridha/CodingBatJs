@@ -11,10 +11,10 @@ front3('abc') → abcabcabc
 
 function front3(str){
 
-  const length = str.length;
+
 
     let firstThreeChar = str.substring(0,3);
     return firstThreeChar + firstThreeChar + firstThreeChar;
   }
 
-console.log(front3("pokit"));
+console.log(front3("o"));
